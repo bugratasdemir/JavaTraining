@@ -1,0 +1,28 @@
+
+package q33;
+
+
+public class Q33 {
+    static int start =2;
+    final int end;
+    public Q33(int x) {
+        x = 4;
+        end = x;
+    }
+    
+    public void fly(int distance){
+        System.out.print(end-start+" ");
+        System.out.print(distance);
+    }
+
+    public static void main(String[] args) {
+    new Q33(10).fly(5);
+    }
+    
+    /*
+    The input to the constructer is ignored, making the assignment of 
+    end to be 4. Since start is 2, the subtraction of 4 by 2 results in
+    the application printing 2,followed by 5.
+    */
+    
+}
