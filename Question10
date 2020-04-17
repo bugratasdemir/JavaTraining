@@ -1,0 +1,24 @@
+
+package q10;
+
+public class Q10 {
+    
+    static String weight = "A lot"; 
+    double ageMonths = 5; /* default */
+    double ageDays = 2; /* default */
+    private static boolean success = true;
+    
+    /*
+    There are two class variables and two instance variables defined.
+    */
+    
+    public static void main(String[] args) {
+        final String retries = "1";
+        
+    /*
+    main () is not a static method therefore it can access
+    both class and instance variables.
+    */
+    }
+    
+}
