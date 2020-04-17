@@ -1,0 +1,24 @@
+
+package q4;
+import java.util.*;
+import java.sql.*;
+
+/*
+The fact that the Date class exists in both packages does not impact 
+the ability to import both packages so lines 3 and 4 compile without issue
+*/
+
+public class Q4 {
+
+    private Date rob = new java.Date(); 
+    /* 
+    The code does not compile because of line 13. 
+    The date class used ambiguous.
+    */
+    private java.util.Date sharon = new java.util.Date();
+    
+    public static void main(String[] args) {
+       
+    }
+    
+}
