@@ -1,0 +1,27 @@
+
+package q21;
+
+
+public class Q21 {
+    
+    private static int yesterday = 1;
+    int tomorrow = 10;
+    /*
+    The variable tomorrow is redeclared in the method, but the reference used on
+    line 24 is to the instance variable with a value of 27. The variable tomorrow
+    is static. While using an instance reference to access a static variable is not
+    recommended, it does not prevent the variable from being read.
+    */
+    
+    public static void main(String[] args) {
+        Q21 tolls = new Q21();
+        int today = 20;
+        /*
+        The variable today has local scope to the method in which it is executed.
+        */
+        
+        int tomorrow = 40;
+        System.out.print(today + tolls.tomorrow+Q21.yesterday);
+        
+    }
+    
