@@ -1,0 +1,20 @@
+
+package q45;
+
+
+public class Q45 {
+
+    static int Wheels = 1;
+    int tracks = 5;
+    public static void main(String[] args) {
+        Q45 s = new Q45();
+        int feet = 4;
+        int tracks = 15;
+        System.out.print(feet + tracks + s.Wheels);
+        
+        /*
+        The variables feet and tracks are locally scoped and set to 4 and 15,
+        respectively, ignoring the value of tracks of 5 in the instance of the class.
+        Finally, the static variable s.variable s.wheels has a value of 1.
+        The result is the combined value is 20.
+        */
