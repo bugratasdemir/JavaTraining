@@ -1,0 +1,20 @@
+package q18;
+
+public class Q18 {
+
+    public static void main(String[] args) {
+        String tree = "pine";
+        int count = 0;
+        if (tree.equals("pine")){
+            int height = 55; 
+            /* 
+            height variable is declared within the if-then statement block.
+            Therefore, it cannot be referenced outside the if-then statement
+            and the code does not compile
+            */
+            count = count +1;
+        }
+        System.out.print(height + count);
+    }
+    
+}
