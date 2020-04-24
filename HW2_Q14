@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication36;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication36 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String title =" Weather ";
+        //int hot, double cold;  In java, it is not possible to declare multiple Java data types in the same declaration.
+        int hot=10;
+        double cold;
+        System.out.println(hot + "" + title); // output is "10 Weather"
+    }
+    
+}
