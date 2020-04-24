@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication35;
+
+import com.sun.org.apache.bcel.internal.generic.RETURN;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication35 {
+
+    int a = Integer.valueOf("1");
+    
+    public static void main(String[] nums) {
+        int a = Integer.valueOf("2");
+        int b = Integer.valueOf("3");
+        System.out.println(a+b);
+        // TODO code application logic here
+        
+        //When the type of class changes to integer, result is 5
+    }
+}
