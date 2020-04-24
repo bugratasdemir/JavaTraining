@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication37;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication37 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Integer integer = new Integer(4);
+        System.out.print(integer.byteValue());
+        System.out.print("-");
+        
+        int i = new Integer(4);
+        //System.out.println(i.byteValue()); // The code does not compile because of this line
+        // Java does not allow calling a method on primitive.
+        // While autoboxing does allow the assignment of an Integer to an int, it does not
+        // allow calling an instance method on a primitive
+        
+        int y = 5;
+        System.out.print(y); // output is 4 - 5 now 
+    }
+    
+}
