@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication34;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication34 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String chair, table = "metal";
+        // chair = chair + table; // The code does not compile because char isnot initialized
+        chair = " table"; // if we initialize to chair, the code compiles
+        chair = chair + table;
+        System.out.println(chair); // output is "metal table" 
+    }
+    
+}
