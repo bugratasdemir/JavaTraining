@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication38;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication38 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String fruit1 = new String("apple");
+        String fruit2 = new String("orange");
+        String fruit3 = new String("pear");
+        
+        fruit3 = fruit1;
+        fruit2 = fruit3;
+        fruit1 = fruit2;
+        // Two string objects eligible for garbage collection because all three references point to the String apple.
+    }
+    
+}
