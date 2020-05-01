@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication42;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication42 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int characters = 5;
+        int story = 3;
+        double movieRating = characters <= 4 ? 3 : story > 1 ? 2 : 1;
+        /* 
+        characters is assigned to 5 and story is assigned to 3 in the beginning. 
+        In if else statement, movieRating is equal to 2.0 because characters is not less than 4 
+        and story is greater than 1 
+        */
+        
+        System.out.println(movieRating);
+    }
+    
