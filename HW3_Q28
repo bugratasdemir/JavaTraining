@@ -1,0 +1,40 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication45;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication45 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int intersections = 100;
+        int streets = 200;
+        if (intersections < 150){
+            System.out.println("1");
+        } //else if (streets && intersections > 1000){ 
+            /*
+            The code does not compile because of the second if-else statement. 
+            streets is not a Boolean expression so cannot be used in logical && operator. 
+            */
+                       
+            else if (streets > 1000 && intersections > 1000){ 
+            /*
+            To compile the code, it must be (streets > 1000 && intersections > 1000). 
+            If it is like that, output will be two 1’s.
+            */          
+            System.out.println("2");
+        } if (streets < 500)
+            System.out.println("1");
+        else
+            System.out.println("2");
+    }
+    
+}
