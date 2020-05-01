@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication44;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication44 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 5;
+        boolean w = true;
+        boolean z = false;
+        x = w ? y++ : y--;
+        w = !z;
+        System.out.println((x+y)+" "+(w ? 5 : 10));
+        /*
+        x is assigned to 5 and y Is assigned to 6 because w = true in the beginning. 
+        After that w is assigned true again because it is assigned to !z. 
+        The output is (5+6) and (5). 
+        */        
+        
+    }
+    
+}
