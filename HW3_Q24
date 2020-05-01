@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication46;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication46 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int flavors = 30;
+        int eaten = 0;
+        switch(flavors){
+            case 30: eaten ++;
+            case 40: eaten +=2;
+            default: eaten --;           
+        }
+        System.out.println(eaten);
+        
+        /*
+        All switch statements will work because there is no break statement. 
+        Firstly eaten will be 1 by increasing 1 and secondly it will be 3 by increasing 2. 
+        Finally it will be 2 by decreasing 1 from 3.
+        */
+    }
+    
+}
