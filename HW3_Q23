@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication47;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication47 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int dog = 11;
+        int cat = 3;
+        int partA = dog / cat;
+        int partB = dog % cat;
+        int newDog = partB + partA * cat;
+        System.out.println(newDog);
+        /*
+        dog  is assigned to 11 and cat is assigned to 3. 
+        partA will be 3 because partA is integer. 
+        partB will be 2 because it is mod operation. 
+        Output is 11 because newDog = 2 + (3*3).
+        */
+        
+    }
+    
+}
