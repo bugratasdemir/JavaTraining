@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication53;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication53 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String john = "john";
+        String jon = new String(john);
+        System.out.println((john == jon)+ " " + (john.equals(jon)));
+        /*
+        Firstly, a new String “john” object is created. 
+        Secondly, the new keyword is used and a new String object is created. 
+        The == on them evaluates to false because of these objects are not same. 
+        The equals() test on them result is true because the referred values are equivalent.
+        */
+        
+    }
+    
+}
