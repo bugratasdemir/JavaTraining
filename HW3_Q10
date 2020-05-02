@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication51;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication51 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int ptrerodactyl = 6;
+        long triceratops = 3;
+        if (ptrerodactyl % 3 >= 1)
+            triceratops++;
+            triceratops--;
+            System.out.println(triceratops);
+            /*
+            pterodactyl is assigned to 6 and triceratops is assigned to 3. 
+            After that end of the if statement, triceratops will decrease and 
+            it will be 2 because pterodactyl % 3 is equal to 0 and 
+            if statement’s result is false. End of the if statement, result will be 2.
+            */
+    
+    }
+    
+}
