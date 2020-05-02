@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication52;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication52 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int plan = 1;
+        plan = plan ++ + --plan;
+        if(plan==1){
+            System.out.println("Plan A");           
+        } 
+        // else { if(plan==2) System.out.println("Plan B");
+        // } else System.out.println("Plan C");
+        else if(plan==2) { 
+                System.out.println("Plan B");
+        }
+        else{
+        System.out.println("Plan C");
+        }
+        /*
+        The code does not compile because there are two else statement. 
+        First else statement must be else if to compile the code. 
+        If it is happen, output will be “Plan B”.
+        */
+}}
