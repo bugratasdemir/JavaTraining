@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication58;
+
+import java.util.Arrays;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication58 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String[] os = new String[] {"Mac", "Linux", "Windows"};
+        Arrays.sort(os);
+        System.out.println(Arrays.binarySearch(os, "Mac"));
+        
+        /*
+        Array’s elements are sorted alphabetically by array.sort(os) method. 
+        “Mac” is the second element of the array so output will be 1.
+        */
+    }
+}
