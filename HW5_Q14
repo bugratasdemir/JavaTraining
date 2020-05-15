@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication64;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication64 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String letters = "";
+        while(letters.length() != 2)
+            letters = letters + "a";
+        System.out.println(letters);
+        
+        /*
+        In the beginning, letters’ length is 0 so it’s not equal to 2 
+        and it enters the loop inside. letters’ length becomes 1 with 
+        assigning “a” in the loop body. Length of the letters changes 
+        again with the increase so it is 2 and contains “aa” now. 
+        When length is equal to 2, it does not print anymore letter so 
+        output is “aa”.
+        */
+    }
+    
+}
