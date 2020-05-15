@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication68;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication68 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int count = 10;
+        List<Character> chars = new ArrayList<>();
+        do{
+            chars.add('a');
+            for(Character x : chars) count -=1;
+        }while(count>0);
+        System.out.println(chars.size());
+        
+        /*
+        First Iteration: chars 1 element, count is equal to 9
+        Second Iteration: chars 2 element, count is equal to 7
+        Third Iteration: chars 3 element, count is equal to 4
+        Fourth Iteration: chars 4 element, count is equal to 0 so output is “4”.
+        */
+    }
+    
+}
