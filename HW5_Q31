@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication69;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication69 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int k =0;
+        for(int i=10; i >0; i--){
+            while(i>3)i -=3;
+            k +=1;
+        }
+        System.out.println(k);
+                
+        /*
+        First iteration: i is equal to 10
+        In the loop: i is equal to 7 by subtracting 3. 
+        After that i is equal to 4 by subtracting 3. 
+        Next, i is equal to  1 by subtracting 3. 
+        Then k is finally incremented to 1 from 0.
+        */
+    }
+    
+}
