@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication67;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication67 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        boolean balloonInflated = false;
+        do{
+            if(!balloonInflated){
+                balloonInflated = true;
+                System.out.print("inflate-");
+            }
+        }while(!balloonInflated);
+                System.out.println("done");
+                
+                /*
+                Initialization expression, boolean conditional and update 
+                statement describe the order in the three expressions appear in the for loop
+                */
+    }
+    
+}
