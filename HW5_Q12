@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication62;
+
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication62 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        List<String> drinks = Arrays.asList("can", "cup");
+        for(int container = drinks.size() -1 ; container >= 0; container--)
+            System.out.print(drinks.get(container) + ""
+                    + ",");
+        
+        /*
+        There is no error in code so output will be “cup, can,” 
+        because it goes to the first index from the last 
+        index in the list. 
+        */
+    }
+    
+}
