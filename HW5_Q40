@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication71;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication71 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       int count = 0;
+       do {
+           do{
+               count++;
+           }while (count <2);
+           break;
+       }while(true);
+        System.out.println(count);
+        
+        /*
+        Line 6: count is set to 0.
+        Line 9: count is set to 1.
+        Line 10: the condition runs and count is less than 2.
+        Next Iteration: count is set to 2.
+        Line 10: other condition runs and returns false.
+        Line 11: outer loop runs and sends execution to after the loop on line 13.
+        Count is still equal to 2.
+        */
+    }
+    
+}
