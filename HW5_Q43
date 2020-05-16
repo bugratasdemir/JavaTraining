@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication73;
+
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication73 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        List<String> exams = Arrays.asList("OCA", "OCP");
+        for (String e1 : exams)
+            for(String e2: exams)
+                System.out.println(e1 + " " + e2);
+    }
+    
+    /*
+    Output will execute four times. 
+    The outer loop executes 2 times and inner loop also executes 2 times for each of
+    those iterations of the outer loop so the inner loop executes four times.
+    */
+    
+}
