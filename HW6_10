@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication74;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication74 {
+    private int rope =1;
+    protected boolean outside;
+    public JavaApplication74(){
+        this(4);
+        outside = true;
+    }
+    
+    public JavaApplication74(int rope){
+        this.rope  = outside ? rope : rope+1;
+    }
+    
+    
+    public static void main(String[] bounce) {
+        System.out.println(new JavaApplication74().rope);
+    }
+    
+    /*
+    If this(4) is inserted at line p1, 
+    it causes the application to print 5. 
+    Default Boolean outside is false and rope is assigned to 5.
+    */
+}
