@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication76;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication76 {
+    private int size;
+    public JavaApplication76(int size) {this.size = size;}
+    
+    public static void sendHome(JavaApplication76 p, int newSize){
+        p = new JavaApplication76(newSize);
+        p.size =4;
+    }
+    
+    
+    public static final void main(String... params) {
+        final JavaApplication76 phone = new JavaApplication76(3);
+        sendHome(phone, 7);
+        System.out.println(phone.size);
+    }
+    
+}
