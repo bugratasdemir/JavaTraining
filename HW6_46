@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication77;
+
+/**
+ *
+ * @author vaio
+ */
+public class JavaApplication77 {
+
+    public JavaApplication77() {
+        super();
+    }
+    public int choose(int choice) {
+        return 5;
+    }
+    public int choose(short choice) {
+        return 2;
+    }
+    public int choose(long choice) {
+        return 11;
+    }
+    
+    /*
+    The output is “5”. The addition + operator automatically 
+    promotes all byte and short values to int so the value passed 
+    to the choose() in the main() method is an int.
+    */
+    
+    public static void main(String[] path) {
+        System.out.println(new JavaApplication77().choose((byte)2+1));      
+    }
+    
+}
